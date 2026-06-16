@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manchester United FC - Media</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER & NAVIGATION ========== -->
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">Man <span>United</span></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="services.html">Stats</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main>
+
+    <h1 class="page-title">Media</h1>
+    <p class="section-intro">
+      Watch the official Manchester United video below, and browse the media schedule
+      of the club's most memorable moments on film.
+    </p>
+
+    <!-- ========== YOUTUBE VIDEO EMBED (required HTML element) ========== -->
+    <h2 style="color: var(--red); margin-bottom: 16px;">Featured Video</h2>
+
+    <!-- 
+      YouTube embed using the video ID from: 
+      https://www.youtube.com/watch?v=E6Jm96mt76E
+      The video ID is everything after watch?v= which is: E6Jm96mt76E
+    -->
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/E6Jm96mt76E"
+        title="Manchester United FC - Official Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- ========== MEDIA SCHEDULE TABLE (required HTML element) ========== -->
+    <h2 class="page-title mt-40">Iconic Moments on Film</h2>
+    <p class="section-intro">
+      A table of Manchester United's most iconic televised moments and documentaries.
+    </p>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Event / Programme</th>
+            <th>Type</th>
+            <th>Competition</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="highlight">
+            <td>1968</td>
+            <td>European Cup Final vs Benfica</td>
+            <td>Match</td>
+            <td>European Cup</td>
+            <td>Won 4–1 (AET)</td>
+          </tr>
+          <tr>
+            <td>1994</td>
+            <td>First Premier League Title</td>
+            <td>Highlights</td>
+            <td>Premier League</td>
+            <td>Champions</td>
+          </tr>
+          <tr class="highlight">
+            <td>1999</td>
+            <td>Champions League Final vs Bayern Munich</td>
+            <td>Match</td>
+            <td>Champions League</td>
+            <td>Won 2–1 (90+1, 90+3)</td>
+          </tr>
+          <tr>
+            <td>1999</td>
+            <td>The Treble — Documentary</td>
+            <td>Documentary</td>
+            <td>All Competitions</td>
+            <td>Treble Winners</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>Champions League Final vs Chelsea</td>
+            <td>Match</td>
+            <td>Champions League</td>
+            <td>Won on Penalties</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>Sir Alex Ferguson — Last Season</td>
+            <td>Documentary</td>
+            <td>Premier League</td>
+            <td>Champions</td>
+          </tr>
+          <tr class="highlight">
+            <td>2023</td>
+            <td>FA Cup Final vs Manchester City</td>
+            <td>Match</td>
+            <td>FA Cup</td>
+            <td>Won 2–1</td>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>99: The Class of '99 — 25th Anniversary</td>
+            <td>Documentary</td>
+            <td>Champions League</td>
+            <td>Retrospective</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ========== ADDITIONAL MEDIA CARDS ========== -->
+    <h2 class="page-title mt-40">Recommended Viewing</h2>
+
+    <div class="card-grid">
+
+      <div class="card">
+        <img src="images/media1.jpg" alt="The Class of 92"
+             onerror="this.style.background='#DA291C';this.style.height='200px'">
+        <div class="card-body">
+          <h3>The Class of '92</h3>
+          <p>A documentary following six United academy players — Beckham, Giggs, Scholes,
+             the Nevilles and Butt — who all went on to become club legends.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/media2.jpg" alt="99 documentary"
+             onerror="this.style.background='#1a1a1a';this.style.height='200px'">
+        <div class="card-body">
+          <h3>99: The Treble Season</h3>
+          <p>Relive the most incredible season in English football history — league, FA Cup
+             and Champions League all won in one extraordinary campaign.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/media3.jpg" alt="Sir Alex Ferguson documentary"
+             onerror="this.style.background='#DA291C';this.style.height='200px'">
+        <div class="card-body">
+          <h3>Ferguson: Never Give In</h3>
+          <p>An intimate documentary directed by Sir Alex Ferguson's son Jason,
+             charting the life and legacy of the greatest manager in football history.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">Man <span>United</span> FC</div>
+      <p>COM4011 Web Development Assignment &mdash; Buckinghamshire New University</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

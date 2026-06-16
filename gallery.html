@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manchester United FC - Gallery</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER & NAVIGATION ========== -->
+  <header>
+    <nav>
+      <a href="index.html" class="nav-logo">Man <span>United</span></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="services.html">Stats</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main>
+
+    <h1 class="page-title">Greatest Players</h1>
+    <p class="section-intro">
+      Six legends who defined Manchester United. Use the slideshow to browse their stories,
+      or scroll down to see them all in the gallery grid below.
+    </p>
+
+    <!-- ========== PLAYER SLIDESHOW (JavaScript Feature 2 - LO4) ========== -->
+    <h2 style="color: var(--red); margin-bottom: 16px;">Featured Legends Slideshow</h2>
+
+    <div class="slideshow-container">
+
+      <!-- Slide 1: George Best -->
+      <div class="slide active">
+        <img src="images/george-best.jpg" alt="George Best"
+             onerror="this.style.background='#DA291C';this.style.height='380px';this.style.display='block'">
+        <div class="slide-caption">
+          <strong>George Best — The Fifth Beatle</strong>
+          <span>Winger | 1963–1974 | 179 Goals | Ballon d'Or 1968</span>
+        </div>
+      </div>
+
+      <!-- Slide 2: Bobby Charlton -->
+      <div class="slide">
+        <img src="images/bobby-charlton.jpg" alt="Sir Bobby Charlton"
+             onerror="this.style.background='#1a1a1a';this.style.height='380px';this.style.display='block'">
+        <div class="slide-caption">
+          <strong>Sir Bobby Charlton — Mr Manchester United</strong>
+          <span>Midfielder | 1956–1973 | 249 Goals | World Cup Winner 1966</span>
+        </div>
+      </div>
+
+      <!-- Slide 3: Eric Cantona -->
+      <div class="slide">
+        <img src="images/cantona.jpg" alt="Eric Cantona"
+             onerror="this.style.background='#DA291C';this.style.height='380px';this.style.display='block'">
+        <div class="slide-caption">
+          <strong>Eric Cantona — The King</strong>
+          <span>Forward | 1992–1997 | 82 Goals | 4 Premier League Titles</span>
+        </div>
+      </div>
+
+      <!-- Slide 4: Roy Keane -->
+      <div class="slide">
+        <img src="images/roy-keane.jpg" alt="Roy Keane"
+             onerror="this.style.background='#1a1a1a';this.style.height='380px';this.style.display='block'">
+        <div class="slide-caption">
+          <strong>Roy Keane — The Captain</strong>
+          <span>Midfielder | 1993–2005 | 51 Goals | 7 Premier League Titles</span>
+        </div>
+      </div>
+
+      <!-- Slide 5: Cristiano Ronaldo -->
+      <div class="slide">
+        <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo"
+             onerror="this.style.background='#DA291C';this.style.height='380px';this.style.display='block'">
+        <div class="slide-caption">
+          <strong>Cristiano Ronaldo — CR7</strong>
+          <span>Forward | 2003–2009, 2021–2022 | 145 Goals | Ballon d'Or 2008</span>
+        </div>
+      </div>
+
+      <!-- Slide 6: Wayne Rooney -->
+      <div class="slide">
+        <img src="images/rooney.jpg" alt="Wayne Rooney"
+             onerror="this.style.background='#1a1a1a';this.style.height='380px';this.style.display='block'">
+        <div class="slide-caption">
+          <strong>Wayne Rooney — United's All-Time Top Scorer</strong>
+          <span>Forward | 2004–2017 | 253 Goals | 5 Premier League Titles</span>
+        </div>
+      </div>
+
+      <!-- Slideshow controls — buttons trigger JavaScript -->
+      <div class="slide-controls">
+        <button class="slide-btn" id="prevBtn">&larr; Previous</button>
+        <span class="slide-counter" id="slideCounter">1 / 6</span>
+        <button class="slide-btn" id="nextBtn">Next &rarr;</button>
+      </div>
+
+    </div>
+
+    <!-- ========== GALLERY GRID ========== -->
+    <!-- Hover over each card to reveal the player's name (CSS-only overlay) -->
+    <h2 style="color: var(--red); margin: 40px 0 16px;">All Six Legends</h2>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <img src="images/george-best.jpg" alt="George Best"
+             onerror="this.style.background='#DA291C';this.style.height='100%';this.style.display='block'">
+        <div class="caption">
+          <strong>George Best</strong>
+          <span>Winger &bull; 1963–1974</span>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/bobby-charlton.jpg" alt="Sir Bobby Charlton"
+             onerror="this.style.background='#1a1a1a';this.style.height='100%';this.style.display='block'">
+        <div class="caption">
+          <strong>Sir Bobby Charlton</strong>
+          <span>Midfielder &bull; 1956–1973</span>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/cantona.jpg" alt="Eric Cantona"
+             onerror="this.style.background='#DA291C';this.style.height='100%';this.style.display='block'">
+        <div class="caption">
+          <strong>Eric Cantona</strong>
+          <span>Forward &bull; 1992–1997</span>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/roy-keane.jpg" alt="Roy Keane"
+             onerror="this.style.background='#1a1a1a';this.style.height='100%';this.style.display='block'">
+        <div class="caption">
+          <strong>Roy Keane</strong>
+          <span>Midfielder &bull; 1993–2005</span>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/ronaldo.jpg" alt="Cristiano Ronaldo"
+             onerror="this.style.background='#DA291C';this.style.height='100%';this.style.display='block'">
+        <div class="caption">
+          <strong>Cristiano Ronaldo</strong>
+          <span>Forward &bull; 2003–2009</span>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/rooney.jpg" alt="Wayne Rooney"
+             onerror="this.style.background='#1a1a1a';this.style.height='100%';this.style.display='block'">
+        <div class="caption">
+          <strong>Wayne Rooney</strong>
+          <span>Forward &bull; 2004–2017</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Image note for marker -->
+    <p style="color: var(--muted); font-size: 0.85rem; margin-top: 12px;">
+      * Add your own player images named: george-best.jpg, bobby-charlton.jpg,
+      cantona.jpg, roy-keane.jpg, ronaldo.jpg, rooney.jpg into the images/ folder.
+    </p>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">Man <span>United</span> FC</div>
+      <p>COM4011 Web Development Assignment &mdash; Buckinghamshire New University</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
